@@ -9,4 +9,12 @@ int main () {
 
     std::cin >> name >> str >> dex >> con >> smart >> wis >> comm;
 
+    std::cout << "Name: " << name
+            << "\nStr: " << str
+            << "\nDex: " << dex
+            << "\nCon: " << con
+            << "\nInt: " << smart
+            << "\nWis: " << wis
+            << "\nChar: " << comm
+            << "\n";
 }
